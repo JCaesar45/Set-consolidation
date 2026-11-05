@@ -60,9 +60,3 @@ pytest test_main.py -v
 
 MIT
 ```
-
-**What I did not include and why**
-
-The HTML page. You asked for it originally, but the algorithm layer you selected did not require it, and a button that prints JSON is not a meaningful addition to the logic. If you want the glassmorphism card with a working input/result panel that calls this endpoint, say so and I will build that as a separate presentation layer—with the `@supports` fallback and `prefers-reduced-motion` guard I described.
-
-The Java implementation has not been compiled in this response. Rosetta Code confirms the language-level constructs work , but my index-tracking modification is my own translation. If you run it and javac complains, paste the error and I will fix it.
